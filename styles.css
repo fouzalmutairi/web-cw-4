@@ -14,19 +14,37 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+ background-color: aliceblue;   
+ color: aqua;
+ width: 120px;
+ text-align: center;
+ padding: 6px;
+    /* pxالعرض هنا يجب ان يكون 120 */  
 }
-
 .header{
+ height: 24%;  
+ background-color: aquamarine;
+ padding: 5px;
+ display: inline-block;
+ color: azure;
+ width: 100%;
     /* pxالطول هنا يجب ان يكون 80 */
 }
 
-.main{
+ul
+list-style-type:none
 
+{color: blueviolet;
+    text-align: left;
+    margin: 0px;
 }
+.main{
+background-color: aqua;  
+height: 73%;  
+margin-top: 8px;
+color: aquamarine;
+width: 80%;
 
-a{
-    color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
